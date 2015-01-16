@@ -1,0 +1,17 @@
+# miso-dev config
+annotator.maf2maf=/ssd-data/cmo/opt/vcf2maf/maf2maf.pl
+annotator.vcf2maf=/ssd-data/cmo/opt/vcf2maf/vcf2maf.pl
+annotator.vepPath=/ssd-data/cmo/opt/vep
+annotator.vepData=/ssd-data/cmo/opt/vep
+annotator.refFasta=/ssd-data/cmo/srv/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa
+annotator.excludeCols=oncotator
+annotator.intermediateMaf=/data/onur/annotator/annotator_out.maf
+
+#local config
+#annotator.maf2maf=/home/sos/MSKCC/portal/vcf2maf/maf2maf.pl
+#annotator.vcf2maf=/home/sos/MSKCC/portal/vcf2maf/vcf2maf.pl
+#annotator.vepPath=/home/sos/MSKCC/portal/vep
+#annotator.vepData=/home/sos/MSKCC/portal/vep
+#annotator.refFasta=/home/sos/MSKCC/portal/vep/homo_sapiens/76_GRCh37/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa
+#annotator.excludeCols=oncotator
+#annotator.intermediateMaf=/home/sos/MSKCC/portal/annotator/annotator_out.maf
