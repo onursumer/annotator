@@ -22,9 +22,11 @@ public class Config
 		config.setVcf2maf(props.getProperty("annotator.vcf2maf"));
 		config.setVepPath(props.getProperty("annotator.vepPath"));
 		config.setVepData(props.getProperty("annotator.vepData"));
+		config.setVepForks(props.getProperty("annotator.vepForks"));
 		config.setRefFasta(props.getProperty("annotator.refFasta"));
 		config.setExcludeCols(props.getProperty("annotator.excludeCols"));
 		config.setIntermediateMaf(props.getProperty("annotator.intermediateMaf"));
+		config.setTmpDir(props.getProperty("annotator.tmpDir"));
 
 		return config;
 	}
