@@ -2,10 +2,7 @@ package main;
 import java.io.IOException;
 import java.util.Date;
 
-import org.mskcc.cbio.annotator.AnnotatorConfig;
-import org.mskcc.cbio.annotator.MultiFileMaf2Maf;
-import org.mskcc.cbio.annotator.MultiFileValidator;
-import org.mskcc.cbio.annotator.MultiFileSanitizer;
+import org.mskcc.cbio.annotator.*;
 
 public class Main
 {
@@ -14,14 +11,15 @@ public class Main
 		// TODO check for config file!
 		Config config = new Config();
 		AnnotatorConfig annoConfig = config.loadConfig();
-		MultiFileMaf2Maf annotator = new MultiFileMaf2Maf(annoConfig);
+		MultiFileMaf2Maf annotator = new MultiFileClusterMaf2Maf(annoConfig);
 		MultiFileValidator validator = new MultiFileValidator();
 		MultiFileSanitizer sanitizer = new MultiFileSanitizer();
 
-		// TODO move these into properties?
-		// default source and target directories...
-		String sourceDir = "/home/sos/CS/idea_worksapce/portal-data/";
-		String targetDir = "/home/sos/MSKCC/portal/data/maf2maf/";
+		// TODO move these into properties
+
+		// default parameters
+		String sourceDir = "~/input-data/";
+		String targetDir = "~/output-data/";
 		String mode = "--annotate";
 
 		if (args.length > 0)

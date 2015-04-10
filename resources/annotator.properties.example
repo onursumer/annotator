@@ -9,7 +9,18 @@ annotator.excludeCols=oncotator
 annotator.intermediateMaf=/data/onur/annotator/annotator_out.maf
 annotator.tmpDir=/data/onur/annotator/cache
 
-#local config
+# luna config
+#annotator.maf2maf=/opt/common/CentOS_6/vcf2maf/v1.5.2/maf2maf.pl
+#annotator.vcf2maf=/opt/common/CentOS_6/vcf2maf/v1.5.2/vcf2maf.pl
+#annotator.vepPath=/opt/common/CentOS_6/vep/v79
+#annotator.vepData=/opt/common/CentOS_6/vep/v79
+#annotator.vepForks=8
+#annotator.refFasta=/opt/common/CentOS_6/vep/v79/homo_sapiens/79_GRCh37/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa
+#annotator.excludeCols=oncotator
+#annotator.intermediateMaf=/home/onur/annotator/annotator_out.maf
+#annotator.tmpDir=/home/onur/annotator/cache
+
+# local config
 #annotator.maf2maf=/home/sos/MSKCC/portal/vcf2maf/maf2maf.pl
 #annotator.vcf2maf=/home/sos/MSKCC/portal/vcf2maf/vcf2maf.pl
 #annotator.vepPath=/home/sos/MSKCC/portal/vep
