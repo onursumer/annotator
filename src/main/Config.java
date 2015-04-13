@@ -27,6 +27,8 @@ public class Config
 		config.setExcludeCols(props.getProperty("annotator.excludeCols"));
 		config.setIntermediateMaf(props.getProperty("annotator.intermediateMaf"));
 		config.setTmpDir(props.getProperty("annotator.tmpDir"));
+		config.setClusterSp(props.getProperty("annotator.clusterSp"));
+		config.setClusterNode(props.getProperty("annotator.clusterNode"));
 
 		return config;
 	}

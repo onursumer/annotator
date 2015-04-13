@@ -19,6 +19,8 @@ annotator.tmpDir=/data/onur/annotator/cache
 #annotator.excludeCols=oncotator
 #annotator.intermediateMaf=/home/onur/annotator/annotator_out.maf
 #annotator.tmpDir=/home/onur/annotator/cache
+#annotator.clusterNode=8
+#annotator.clusterSp=100
 
 # local config
 #annotator.maf2maf=/home/sos/MSKCC/portal/vcf2maf/maf2maf.pl
