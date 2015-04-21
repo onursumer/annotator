@@ -1,15 +1,14 @@
-package main;
+package org.mskcc.cbio.annotator;
+
 import java.io.IOException;
 import java.util.Date;
 
-import org.mskcc.cbio.annotator.*;
-
-public class Main
+public class ScriptMain
 {
 	public static void main(String[] args) throws IOException
 	{
 		// TODO check for config file!
-		Config config = new Config();
+		ScriptConfig config = new ScriptConfig();
 		AnnotatorConfig annoConfig = config.loadConfig();
 		MultiFileMaf2Maf annotator = new MultiFileClusterMaf2Maf(annoConfig);
 		MultiFileValidator validator = new MultiFileValidator();

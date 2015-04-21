@@ -1,6 +1,4 @@
-lib/annotator.jar
-bin
-out
+target
 .idea/*
 *.iml
 annotator.properties

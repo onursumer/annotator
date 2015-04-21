@@ -1,4 +1,4 @@
-package main;
+package org.mskcc.cbio.annotator;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,7 +8,7 @@ import java.util.Properties;
 
 import org.mskcc.cbio.annotator.AnnotatorConfig;
 
-public class Config
+public class ScriptConfig
 {
 	String DEFAULT_PROPERTIES_FILE = "annotator.properties";
 	
