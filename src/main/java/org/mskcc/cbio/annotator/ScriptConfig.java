@@ -20,15 +20,16 @@ public class ScriptConfig
 
 		config.setMaf2maf(props.getProperty("annotator.maf2maf"));
 		config.setVcf2maf(props.getProperty("annotator.vcf2maf"));
-		config.setVepPath(props.getProperty("annotator.vepPath"));
-		config.setVepData(props.getProperty("annotator.vepData"));
-		config.setVepForks(props.getProperty("annotator.vepForks"));
-		config.setRefFasta(props.getProperty("annotator.refFasta"));
-		config.setExcludeCols(props.getProperty("annotator.excludeCols"));
-		config.setIntermediateMaf(props.getProperty("annotator.intermediateMaf"));
-		config.setTmpDir(props.getProperty("annotator.tmpDir"));
-		config.setClusterSp(props.getProperty("annotator.clusterSp"));
-		config.setClusterNode(props.getProperty("annotator.clusterNode"));
+		config.setVepPath(props.getProperty("annotator.vep_path"));
+		config.setVepData(props.getProperty("annotator.vep_data"));
+		config.setVepForks(props.getProperty("annotator.vep_forks"));
+		config.setRefFasta(props.getProperty("annotator.ref_fasta"));
+		config.setExcludeCols(props.getProperty("annotator.exclude_cols"));
+		config.setIntermediateMaf(props.getProperty("annotator.intermediate_maf"));
+		config.setTmpDir(props.getProperty("annotator.tmp_dir"));
+		config.setMode(props.getProperty("annotator.mode"));
+		config.setClusterSp(props.getProperty("annotator.cluster_sp"));
+		config.setClusterNode(props.getProperty("annotator.cluster_node"));
 
 		return config;
 	}
