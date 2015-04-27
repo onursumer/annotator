@@ -19,10 +19,8 @@
 	</dependencies>
 
 	<build>
-
 		<!-- plugins -->
 		<plugins>
-
 			<!-- java 1.7 support -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -75,7 +73,6 @@
 					</execution>
 				</executions>
 			</plugin>
-
-	</plugins>
+		</plugins>
 	</build>
 </project>
