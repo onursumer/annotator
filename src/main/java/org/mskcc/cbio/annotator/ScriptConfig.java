@@ -6,8 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import org.mskcc.cbio.annotator.AnnotatorConfig;
-
 public class ScriptConfig
 {
 	String DEFAULT_PROPERTIES_FILE = "annotator.properties";
@@ -18,6 +16,7 @@ public class ScriptConfig
 
 		AnnotatorConfig config = new AnnotatorConfig();
 
+		config.setPerl(props.getProperty("annotator.perl_bin"));
 		config.setMaf2maf(props.getProperty("annotator.maf2maf"));
 		config.setVcf2maf(props.getProperty("annotator.vcf2maf"));
 		config.setVepPath(props.getProperty("annotator.vep_path"));

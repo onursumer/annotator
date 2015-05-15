@@ -1,14 +1,17 @@
 # miso-dev config
-annotator.maf2maf=/ssd-data/cmo/opt/vcf2maf/maf2maf.pl
-annotator.vcf2maf=/ssd-data/cmo/opt/vcf2maf/vcf2maf.pl
-annotator.vep_path=/ssd-data/cmo/opt/vep
-annotator.vep_data=/ssd-data/cmo/opt/vep
-annotator.vep_forks=8
-annotator.ref_fasta=/ssd-data/cmo/srv/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa
+annotator.maf2maf=/home/wangq/bin/vcf2maf/maf2maf.pl
+annotator.vcf2maf=/home/wangq/bin/vcf2maf/vcf2maf.pl
+annotator.perl_bin=perl
+annotator.vep_path=/ssd-data/cmo/opt/vep/v79
+annotator.vep_data=/ssd-data/cmo/opt/vep/v79
+annotator.ref_fasta=/ssd-data/cmo/opt/vep/v79/homo_sapiens/79_GRCh37/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa
 annotator.exclude_cols=oncotator
-annotator.intermediate_maf=/data/onur/annotator/annotator_out.maf
-annotator.tmp_dir=/data/onur/annotator/cache
 annotator.mode=regular
+annotator.intermediate_maf=/tmp/annotator_out.maf
+annotator.vep_forks=8
+annotator.tmp_dir=/ssd-data/portal-tmp-dir
+annotator.cluster_node=
+annotator.cluster_sp=
 
 # luna config
 #annotator.maf2maf=/opt/common/CentOS_6/vcf2maf/v1.5.2/maf2maf.pl
