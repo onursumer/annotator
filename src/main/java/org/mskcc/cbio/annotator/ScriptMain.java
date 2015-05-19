@@ -10,7 +10,10 @@ public class ScriptMain
 		// TODO check for config file!
 		ScriptConfig config = new ScriptConfig();
 		AnnotatorConfig annoConfig = config.loadConfig();
-		MultiFileMaf2Maf annotator = new MultiFileClusterMaf2Maf(annoConfig);
+
+		// TODO add a parameter for regular vs cluster mode
+		//MultiFileMaf2Maf annotator = new MultiFileClusterMaf2Maf(annoConfig);
+		MultiFileMaf2Maf annotator = new MultiFileMaf2Maf(annoConfig);
 		MultiFileValidator validator = new MultiFileValidator();
 		MultiFileSanitizer sanitizer = new MultiFileSanitizer();
 

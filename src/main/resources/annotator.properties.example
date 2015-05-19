@@ -1,7 +1,9 @@
 # miso-dev config
 annotator.maf2maf=/home/wangq/bin/vcf2maf/maf2maf.pl
 annotator.vcf2maf=/home/wangq/bin/vcf2maf/vcf2maf.pl
-annotator.perl_bin=perl
+annotator.path=PATH=/ssd-data/cmo/opt/perl/perl-5.20.2/bin/:/ssd-data/cmo/bin:/ssd-data/cmo/opt
+annotator.perl_bin=/ssd-data/cmo/opt/perl/perl-5.20.2/bin/perl
+annotator.perl_lib=PERL5LIB=/ssd-data/cmo/opt/perl/perl-5.20.2/lib/perl5
 annotator.vep_path=/ssd-data/cmo/opt/vep/v79
 annotator.vep_data=/ssd-data/cmo/opt/vep/v79
 annotator.ref_fasta=/ssd-data/cmo/opt/vep/v79/homo_sapiens/79_GRCh37/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa
