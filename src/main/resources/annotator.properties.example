@@ -14,6 +14,7 @@ annotator.vep_forks=8
 annotator.tmp_dir=/ssd-data/portal-tmp-dir
 annotator.cluster_node=
 annotator.cluster_sp=
+annotator.custom_enst=/ssd-data/cmo/opt/vcf2maf/data/isoform_overrides_at_mskcc
 
 # luna config
 #annotator.maf2maf=/opt/common/CentOS_6/vcf2maf/v1.5.2/maf2maf.pl

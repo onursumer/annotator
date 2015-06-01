@@ -31,6 +31,7 @@ public class ScriptConfig
 		config.setMode(props.getProperty("annotator.mode"));
 		config.setClusterSp(props.getProperty("annotator.cluster_sp"));
 		config.setClusterNode(props.getProperty("annotator.cluster_node"));
+		config.setCustomEnst(props.getProperty("annotator.custom_enst"));
 
 		return config;
 	}
