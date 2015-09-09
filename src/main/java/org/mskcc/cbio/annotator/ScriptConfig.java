@@ -16,6 +16,7 @@ public class ScriptConfig
 
 		AnnotatorConfig config = new AnnotatorConfig();
 
+		config.setAnnotator(props.getProperty("annotator.annotator"));
 		config.setPath(props.getProperty("annotator.path"));
 		config.setPerl(props.getProperty("annotator.perl_bin"));
 		config.setPerlLib(props.getProperty("annotator.perl_lib"));
