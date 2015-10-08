@@ -1,0 +1,4 @@
+annotate.db.name=oncotator
+annotate.db.user=cbio
+annotate.db.password=cbio
+annotate.db.host=localhost
