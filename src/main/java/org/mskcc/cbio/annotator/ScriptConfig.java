@@ -33,6 +33,7 @@ public class ScriptConfig
 		config.setClusterSp(props.getProperty("annotator.cluster_sp"));
 		config.setClusterNode(props.getProperty("annotator.cluster_node"));
 		config.setCustomEnst(props.getProperty("annotator.custom_enst"));
+		config.setOverrideURI(props.getProperty("annotator.overrides_uri"));
 
 		return config;
 	}
