@@ -34,6 +34,7 @@ public class ScriptConfig
 		config.setClusterNode(props.getProperty("annotator.cluster_node"));
 		config.setCustomEnst(props.getProperty("annotator.custom_enst"));
 		config.setOverrideURI(props.getProperty("annotator.overrides_uri"));
+		config.setOverrideSource(props.getProperty("annotator.overrides_source"));
 
 		return config;
 	}

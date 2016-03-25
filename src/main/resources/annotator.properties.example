@@ -31,8 +31,9 @@ annotator.custom_enst=/ssd-data/cmo/opt/vcf2maf/data/isoform_overrides_at_mskcc
 #annotator.cluster_sp=100
 
 # local config
-annotator.annotator=vepWeb
-annotator.overrides_uri=isoform_overrides_uniprot.txt
+annotator.annotator=genomeNexus
+annotator.overrides_source=uniprot
+#annotator.overrides_uri=isoform_overrides_uniprot.txt
 #annotator.maf2maf=/home/sos/MSKCC/portal/vcf2maf/maf2maf.pl
 #annotator.vcf2maf=/home/sos/MSKCC/portal/vcf2maf/vcf2maf.pl
 #annotator.vep_path=/home/sos/MSKCC/portal/vep
